@@ -1,0 +1,42 @@
+
+                                Assertions
+
+Library Assert comes from TestNG
+We use Assertions instead of if conditions, because we want the test the fail in testng if the condition is not met
+(in if condition, the message is displayed/ or code is executed, but the test passes, which shouldn't happen)
+
+1. Hard Assertions
+
+Assert.AssertEquals(Expected value, Actual value)
+                    - if they are equal, the test will pass
+                    - if they are not equal, the test will fail
+
+2. Soft Assertions
+They won't stop the execution of the script
+
+first assertion that we learned is
+1.Assert.AssertEquals(String , String)
+it comapres two strings if they are equal test case passed else fails.
+2.Assert.AssetTrue(boolean)-->if the boolean is True the Assertion will pass
+								if the boolean is false the assertion will fail
+1.HardAssertions
+As soon as any assertion FAIlS it doesnt check for other assertions , marks the test as failed and quits
+Assert.Assertequals(Expected value,Actual Value)-->if they are equal your test case will pass
+`												--> if they are not equal your test case is going to FAIL
+2.SoftAssertions:
+Soft asseertion will execute all assertions that are there despite of the fact that they FAIL or PASS
+and once it has evaluated them all then it will mark the test case as
+Failed or Passed
+(it marks it failed even if one assertion has failed)
+The advantage of using soft asssert is that we can
+see what errors we are having in other assertions that we make in the same test case
+but we cant see them if we use hardassertion as IT WILL EXIT AS SOON AS THE FIRST ASSERTION FAILS
+method to implement:
+1. delcare the instance
+softAssert soft =new softAssert();
+2.make assertions
+soft.assertEquals();
+3. after making all the desired assertions
+we have to do soft.assertALL()
+this evaluates weather the test case has to be marked passed or failed (depending on the results of all the )
+

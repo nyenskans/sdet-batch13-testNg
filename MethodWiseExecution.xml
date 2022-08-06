@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MethodWiseExecution">
+    <test verbose="2" preserve-order="true" name="/Users/katarinasusic/IdeaProjects/SDETBatch13TestNg">
+        <classes>
+            <class name="class02.Priority">
+                <methods>
+                    <include name="firstTest"></include>
+                    <include name="secondTest"></include>
+                    <include name="fourthTest"></include>
+                    <include name="thirdTest"></include>
+                </methods>
+            </class>
+          <class name="class02.EnableDisable">
+              <methods>
+                  <include name="thirdTest"></include>
+                  <exclude name="secondTest"></exclude>
+              </methods>
+          </class>
+
+
+        </classes>
+    </test>
+</suite>

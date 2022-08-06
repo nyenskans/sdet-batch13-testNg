@@ -5,17 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4545c6-2d13-46e5-b564-9eff0d3bceee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/Intro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/TestNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/testAnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/testAnnotationDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/testNGAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/Assertions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/DependsOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/EnableDisable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/HardAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/SoftAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/xml file creation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportTestResults" exportFormat="Xml" outputFolder="$USER_HOME$/Desktop" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,26 +50,97 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/class01" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="class01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/testng.xml">
+    <configuration name="Priority" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SDETBatch13TestNg" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="class02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="class02" />
+      <option name="MAIN_CLASS_NAME" value="class02.Priority" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftAssertion.invalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDETBatch13TestNg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class02" />
+      <option name="MAIN_CLASS_NAME" value="class02.SoftAssertion" />
+      <option name="METHOD_NAME" value="invalidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/MethodWiseExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDETBatch13TestNg" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/MethodWiseExecution.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/Regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDETBatch13TestNg" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDETBatch13TestNg" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG./Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/testng.xml" />
+        <item itemvalue="TestNG.SoftAssertion.invalidCredentials" />
+        <item itemvalue="TestNG./Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/Regression.xml" />
+        <item itemvalue="TestNG./Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/MethodWiseExecution.xml" />
+        <item itemvalue="TestNG.Priority" />
       </list>
     </recent_temporary>
   </component>

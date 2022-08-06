@@ -1,0 +1,44 @@
+
+
+double shift
+search plugins
+search xml testng
+install apply ok
+
+right click on project --> create xml file
+right click on project --> reload disc
+--> xml file is in target folder in the bottom
+code--> reformat
+--> delete everything between <classes>  </classes>
+- rename the file!
+// we determine which classes we want to run as tests:
+             <classes>
+                        <class name="class02.EnableDisable"></class>
+                        <class name="class01.testNGAnnotations"></class>
+                        <class name="class02.Priority"></class>
+             </classes>
+--> right click --> run xml
+
+// to create a new xml file, follow the steps again from after installing plug in
+
+
+
+
+If we want to execute particular methods, we write:
+ <classes>
+      <class name="class02.Priority">
+             <methods>
+
+                     <include name="firstTest"></include>  // will be run
+                     <exclude name="secondTest"></exclude> // will not be run
+             </methods>
+      </class>
+ </classes>
+
+// it's a good practice to write all the methods in a class and say include or exclude
+//even though if you omitted excluded ones, they wouldn't be executed anyway
+
+// the methods in xml will executed based on priority we gave them within the original class
+
+
+In testNG we have either package or class based test execution

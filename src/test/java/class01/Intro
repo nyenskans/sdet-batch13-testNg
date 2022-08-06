@@ -1,0 +1,41 @@
+
+
+
+xml - file format, The Extensible Markup Language (XML) is a simple text-based format for representing structured information:
+documents, data, configuration, books, transactions, invoices, and much more.
+-uses tags
+the XML file does not DO anything. XML is just information wrapped in tags.
+
+
+json- JSON stands for JavaScript Object Notation. It is a text format for storing and transporting data
+      JSON is "self-describing" and easy to understand. It is used to send data between computers
+      It is language independent
+
+    Maven project:
+
+Create a new maven project in Intellij
+
+
+        Maven repository
+
+maven repository - online storage for dependencies (jars)
+When we use maven projects, this is where we get the path of a dependency (library) we need from to add into our pom.xml
+instead of downloading jars and updating them all the time
+(instead we just reload maven in intellij)
+
+In Maven terminology, a repository is a directory where all the project jars, library jar, plugins or any other project
+specific artifacts are stored and can be used by Maven easily.
+
+    <properties> : maven version
+    <dependencies> : tag for where we import jars
+
+****
+         What are libraries:
+Libraries in programming languages are collections of prewritten code that users can use to optimize tasks
+In computer programming, a library refers to a collection of files, programs, routines, scripts, or functions that can
+be referenced in the programming code.
+
+****Libraries vs Framework
+Libraries provide developers with predefined functions and classes to make their work easier and boost the development
+process.
+Framework, on the other hand, is like the foundation upon which developers build applications for specific platforms
