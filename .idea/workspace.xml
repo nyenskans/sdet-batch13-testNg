@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4545c6-2d13-46e5-b564-9eff0d3bceee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/Class01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class03/Data Providers and Listeners" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class03/DataProviders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class03/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class03/MoreAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class03/ParallelTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class04_Assessment/Requirements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class04_Assessment/base/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class04_Assessment/page/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class04_Assessment/test/LoginPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class04_Assessment/utils/CommonMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageWiseExecution.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PackageWiseExecution.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Smoke.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DualTestExecution.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +64,17 @@
       <recent name="class01" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/testng.xml">
-    <configuration name="Priority" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDETBatch13TestNg" />
+  <component name="RunManager" selected="TestNG./Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/Parallel testing.xml">
+    <configuration name="DataProviders (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class02.*" />
+          <option name="PATTERN" value="class03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="class02" />
-      <option name="MAIN_CLASS_NAME" value="class02.Priority" />
+      <option name="PACKAGE_NAME" value="class03" />
+      <option name="MAIN_CLASS_NAME" value="class03.DataProviders" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -74,16 +82,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftAssertion.invalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDETBatch13TestNg" />
+    <configuration name="DataProviders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class02.*" />
+          <option name="PATTERN" value="class03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="class02" />
-      <option name="MAIN_CLASS_NAME" value="class02.SoftAssertion" />
+      <option name="PACKAGE_NAME" value="class03" />
+      <option name="MAIN_CLASS_NAME" value="class03.DataProviders" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelTesting.invalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class03" />
+      <option name="MAIN_CLASS_NAME" value="class03.ParallelTesting" />
       <option name="METHOD_NAME" value="invalidCredentials" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -92,19 +117,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/MethodWiseExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDETBatch13TestNg" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/MethodWiseExecution.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/Regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDETBatch13TestNg" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Regression.xml" />
+    <configuration name="/Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/Parallel testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Parallel testing.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -113,7 +128,7 @@
       </method>
     </configuration>
     <configuration name="/Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SDETBatch13TestNg" />
+      <module name="TestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -124,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/Parallel testing.xml" />
         <item itemvalue="TestNG./Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/testng.xml" />
-        <item itemvalue="TestNG.SoftAssertion.invalidCredentials" />
-        <item itemvalue="TestNG./Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/Regression.xml" />
-        <item itemvalue="TestNG./Users/katarinasusic/IdeaProjects/SDETBatch13TestNg/MethodWiseExecution.xml" />
-        <item itemvalue="TestNG.Priority" />
+        <item itemvalue="TestNG.ParallelTesting.invalidCredentials" />
+        <item itemvalue="TestNG.DataProviders (1)" />
+        <item itemvalue="TestNG.DataProviders" />
       </list>
     </recent_temporary>
   </component>

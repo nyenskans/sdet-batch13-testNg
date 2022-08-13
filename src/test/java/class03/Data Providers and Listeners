@@ -1,0 +1,27 @@
+
+
+@DataProvider
+
+We provide all the different data we should test under this annotation.
+Then, in any test we can use it without repeating the code
+
+We can have multiple Data Providers, so we have to assign it a name
+
+It will be a 2Dimensional Array of type Object
+
+We need to link the desired Data Provider to the method where we need to use it (by adding it into parenthesis by @Test,
+ and by adding parameters into the method in the test)
+
+We use it for limited data, up to 15 rows, no more than that. After that amount we should be reading data from Excel files
+
+
+
+
+                    Listeners
+
+First step is to create a Listener class which will implement interface ITestListeners
+Second step is to override (implement) methods we want to use (most commonly .onSuccess() and .onFailure())
+Third step is to  define our listeners in xml right after suite
+So we define a listeners class (which has code to be executed in case of test case success/failure), put it in xml in
+<listeners> tag and say which  class/method we want to have the listeners applied to in <classes> tag
+    Listeners only listen if we run the xml file Not if we run the class itself
