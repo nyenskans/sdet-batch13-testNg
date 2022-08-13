@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/parallelTest.java" parallel = "classes" thread-count="10">
+     <!-- Above is how we define parallel testing for multiple classes-->
+        <classes>
+            <class name="class03.ParallelTesting"></class>
+            <class name="class03.DataProviders"></class>
+        </classes>
+    </test>
+</suite>

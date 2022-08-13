@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/katarinasusic/IdeaProjects/SDETBatch13TestNg">
+        <classes>
+            <class name="class03.MoreAnnotations"></class>
+            <class name="class02.DependsOn"></class>
+        </classes>
+    </test>
+    <test name="mytest2">
+        <classes>
+            <class name="class03.MoreAnnotations"></class>
+        </classes>
+    </test>
+</suite>
+
+<!-- If 2 or more classes have the same precondition -->
